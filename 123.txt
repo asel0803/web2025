@@ -1,0 +1,28 @@
+#tcp_nopush
+on;
+#keepalive_timeout keepalive_timeout
+0;
+65;
+server {
+listen
+8080;
+server_name localhost;
+client_max_body_size 20M;
+root
+/Users/Asel/Sites/web2025/project/;
+location / {
+index
+index.php index.html
+index.htm;
+fastogi_index
+index. php;
+SCRIPT_FILENAME /Users/Asel/Documents/web2025/project$fastcgi_script_name; fastogi_params;
+location ~ ^/cai-bin/ {
+root /Users/asel/Documents/web2025;
+# Путь к основной папке
+fastcgi_pass unix:/var/run/fcgiwrap.socket;
+# Путь к сокету
+fastegi_param SCRIPT_FILENAME /Users/asel/Documents/web2025$fastcgi_script_name;
+include fastcgi_params;
+include servers/*;
+}
