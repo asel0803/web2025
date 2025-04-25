@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <title>Добро пожаловать</title>
+    </head>
+    <body>
+        <img src="home.jpg">
+        <img src="Vector.svg">
+        <img src="Indicator.svg">
+        <img src="Menu Item.svg">
+        <img src="Menu ItemH.svg">
+        <img src="Menu ItemP.svg">
+        <h3>Ваня Денисов</h3>
+        
+    </body>
+</html>        
