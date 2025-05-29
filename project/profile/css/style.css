@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home-page {
+    display: flex;
+    width: 100%;
+}
+
+.main {
+    margin-top: 73px;;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile__image {
+    width: 123px;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+.profile__header {
+    font-family: Golos UI;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.profile__text {
+        display: flex;
+        width: 361px;
+        height: 36px;
+        font: 400 15px / 18px "Golos UI";
+        letter-spacing: -0.15px;
+        color: #222222;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 12px;
+}
+
+.count-info {
+    background: #F2F3F5;
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    gap: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count-info__text{
+    font-family: Golos UI;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+    color: #222222;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+
+.wrapper-navigation {
+    display: flex;
+    width: 72px;
+    flex-direction: column;
+    padding-top: 40px;
+    border-right: 1px solid rgba(22, 22, 22, 0.05);
+    align-items: center;
+    gap: 10px;
+}
+
+.navigation {
+    display: block;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin: 0 234px;
+    align-items: center;
+}
+
+.content_image {
+    flex: 0 0 322px;
+    border-radius: 2px;
+    max-width: 322.35px;
+}
+

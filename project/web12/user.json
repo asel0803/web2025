@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+        "name": "Буран",
+        "lastname":"Урезин",
+        "descreption": "Буран урезин не забыт.",
+        "avatar":"avatar.png"
+    },
+
+  {
+        "id":2,
+        "name": "Нуран",
+        "lastname":"КУрезин",
+        "descreption": "Буран урезин забыт.",
+         "avatar":"Avatarlisad.png"
+    },
+     {
+        "id":3,
+        "name": "Курган",
+        "lastname":"Дурезин",
+        "descreption": "Курган Дурезин не существует.",
+        "avatar":"home.svg"
+    }
+]

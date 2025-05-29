@@ -103,5 +103,73 @@
 }
 
 .contentpost__time-text {
-    font: 400 14px/18px "Golos UI";
+    font: 400 14px/18px "Golos UI", Arial, sans-serif;
+    color: #808080; 
+    margin-top: 8px; 
+    display: block; 
+}
+
+.back-button,
+.next-button{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.back-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+
+.next-button:active {
+    box-shadow: 5px 5px 2px red;
+}
+
+.back-button:active {
+    box-shadow: 5px 5px 2px red;
+}
+
+.slider {
+    display: flex;
+}
+
+.wrapper-slider {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider__photo-number {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    background-color: rgba(34, 34, 34, 0.5);
+    width: 44px;
+    height: 24px;
+    border-radius: 20px;
+}
+
+.slider__photo-number-flex {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider__photo-number-text {
+    font-family: "Golos UI";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
 }

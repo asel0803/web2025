@@ -1,0 +1,24 @@
+[
+    {
+      "user_id": 0,
+      "email": "vanya.denisov@example.com",
+      "password": "123" ,
+      "first_name": "Ваня",
+      "last_name": "Денисов",
+      "id_posts": [0],
+      "profile_image": "../static/images/avatar.png",
+      "about": "Привет! Я системный аналитик в ACME :) Тут моя жизнь только для самых классных!"
+
+    },
+
+    {
+        "user_id": 1,
+        "email": "liza.demina@example.com",
+        "password": "4321",
+        "first_name": "Лиза",
+        "last_name": "Дёмина",
+        "id_posts": [1, 2],
+        "profile_image": "../static/images/avatarlisad.png",
+        "about": ""
+      }
+  ]
